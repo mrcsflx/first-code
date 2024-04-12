@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.row:after {
+    content: "";
+    display:flex;
+    clear: both;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+.cabecera {
+    display: flex;
+    background-image: url(./header.jpg);
+    background-size:cover;
+    height:100vh;
+    width: 100%; 
+    align-items: center;
+    justify-content: center;
+}
+    
+.parrafo4{
+    text-align: center;
+    font-size: 40px;
+}
+.parrafo6 {
+    text-align: center;
+    padding-top: 3%;
+    font-size: 30px;
+}
+
+.proyecto {
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+.column3 {
+    width: 33.33%;
+    float:left;
+    padding: 3%;          
+}
+
+.column2 {
+    width: 50%;
+    float: left;
+}
+
+.imagen {
+    width: 100%;
+    
+}
+
+.azul {
+    text-align: center;
+    font-size: 30px ;
+}
+
+.azul2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.especial {
+    background-color: rgba(12, 122, 122, 0.527);
+    padding: 1%;
+    color: white;
+}
+
+.abajo {
+    padding-left: 10%;
+
+}
+
+.titulito {
+    font-size: 30px;
+}
+
+.gris {
+    color: gray;
+}
+
+.mapa {
+    width: 500px;
+}
+
+.raro {
+    padding-left: 10%;
+    padding-top: 2%;
+
+}
+
+.negro {
+    background-color: rgba(0, 0, 0, 0.473);
+   
+}
+
+.column20 {
+    width: 20%;
+    float: left;
+    margin: 0;
+    
+
+}
+
+.blanco {
+    color: white;
+}
+
+.foot {
+
+
+}
+.column30 {
+    width: 30%;
+    float: left;
+    margin: 0;
+}
+
+.negro2 {
+    background-color: black;
+    text-align: center;
+}
+
+.espacio {
+    padding-top: 2%;
+    margin: 0;
+}
+
+.column9 {
+    width: 50%;
+    float: left;
+}
+
+@media screen and (max-width:600px) {
+
+    .column3 {
+        width: 50%;
+    }
+    
+    .column2 {
+        width: 100%;
+    }
+    .mapa {
+        width: 100%;
+        margin: 0;
+    }
+    .column20{
+        width: 50%;
+
+    }
+    .abajo {
+        padding-left: 2%;
+    }
+    .column9 {
+        width: 100%;
+    }
+    .column60 {
+        width: 50%;
+    }
+    .raro {
+        padding-left: 2%;
+    }
+   
+    
+    .mapa {
+        width: 96%;
+        padding-left: 2%;
+        
+    }
+    .blanco {
+        padding-left: 5%;
+    }
+    .foot {
+        padding-left: 5%;
+    }
+}
